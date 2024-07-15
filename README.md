@@ -29,19 +29,19 @@ Pixelation degrades image quality, making images less useful for various applica
     ```
     This will build and train the SRCNN model and save the weights to the specified path.
    
-5. Run "test.py":
+4. Run "test.py":
    ```bash
    python test.py
 - This script will perform the evaluation using a pre-trained classifier.
 - It loads a set of test images (not used during training) from both Original and Pixelated folders.
 - It calculates the accuracy of the pixelation detection model by comparing predicted labels with ground truth labels.]
 
-6. Detect Pixelation in an Image:
+5. Detect Pixelation in an Image:
     ```bash
     python DETECTION.py --image-path path/to/image
     ```
     This will load the image and predict whether it is pixelated.
-7. Correct Pixelation in an Image:
+6. Correct Pixelation in an Image:
     ```bash
     python CORRECTION.py --image-path path/to/image --output-path path/to/save/corrected/image
     ```
