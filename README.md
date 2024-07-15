@@ -10,7 +10,6 @@
     <header>
         <h1>Image Pixelation Detection and Correction</h1>
     </header>
-
         <h2>Objective</h2>
         <p>The primary objective of this project is to develop an AI-based solution that can effectively detect and correct pixelation in images. The solution involves multiple steps, including image classification to detect pixelation and applying a Super-Resolution Convolutional Neural Network (SRCNN) model to enhance the image quality. This solution aims to improve image quality, particularly in the context of autonomous driving, image classification, and image generation.</p>
   
