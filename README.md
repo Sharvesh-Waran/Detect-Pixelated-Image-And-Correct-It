@@ -9,21 +9,20 @@
         <h1>Image Pixelation Detection and Correction</h1>
     </header>
 
-    <section>
+    
         <h2>Objective</h2>
         <p>
             Develop an AI-based solution to effectively detect and correct pixelation in images. This solution involves image classification to detect pixelation and applying a Super-Resolution Convolutional Neural Network (SRCNN) model to enhance image quality, with applications in autonomous driving, image classification, and image generation.
         </p>
-    </section>
+    
 
-    <section>
         <h2>Problem Description</h2>
         <p>
             Pixelation degrades image quality, making images less useful for various applications. This project addresses the challenge of detecting pixelation and enhancing image quality using AI techniques. The goal is to create a system that accurately classifies images as pixelated or non-pixelated and applies a super-resolution model to enhance pixelated images.
         </p>
-    </section>
+   
 
-    <section>
+  
         <h2>Solution Features</h2>
         <ul>
             <li><strong>Data Pre-processing:</strong> Convert images to grayscale and apply local binary pattern (LBP) to extract texture features. Use edge detection (Canny edge detector) to extract edge histogram features.</li>
@@ -33,9 +32,8 @@
             <li><strong>Scalability:</strong> Handle images of varying sizes and complexities by adjusting the input dimensions for the SRCNN model.</li>
             <li><strong>User-friendly Interface:</strong> Provide a straightforward interface for loading images, detecting pixelation, and saving enhanced images.</li>
         </ul>
-    </section>
+    
 
-    <section>
         <h2>How to Work with the Project</h2>
         <ol>
             <li>Clone the Repository:
@@ -57,9 +55,8 @@
                 <p>This will load the image, correct pixelation if detected, and save the corrected image to the specified path.</p>
             </li>
         </ol>
-    </section>
+    
 
-    <section>
         <h2>Made by Bandits</h2>
         <ul>
             <li>Sharveshwaran S S</li>
@@ -68,6 +65,6 @@
             <li>Prithivraj M P</li>
             <li>Ramalingam M</li>
         </ul>
-    </section>
+    
 </body>
 </html>
