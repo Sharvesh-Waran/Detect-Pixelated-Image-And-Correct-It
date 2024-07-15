@@ -85,27 +85,30 @@
             <li>Clone the Repository:
                 <pre><code>git clone &lt;repository-url&gt;</code></pre>
             </li>
+            <li>Install Required Libraries:
+                <pre><code>pip install -r requirements.txt</code></pre>
+            </li>
             <li>Train the SRCNN Model:
                 <pre><code>python train_srcnn.py</code></pre>
-                This will build and train the SRCNN model, then save the weights to the specified path.
+                <p>This will build and train the SRCNN model, then save the weights to the specified path.</p>
             </li>
             <li>Detect Pixelation in an Image:
                 <pre><code>python detect_pixelation.py --image-path path/to/image</code></pre>
-                This will load the image and predict whether it is pixelated or not.
+                <p>This will load the image and predict whether it is pixelated or not.</p>
             </li>
             <li>Correct Pixelation in an Image:
                 <pre><code>python correct_pixelation.py --image-path path/to/image --output-path path/to/save/corrected/image</code></pre>
-                This will load the image, correct the pixelation if detected, and save the corrected image to the specified path.
+                <p>This will load the image, correct the pixelation if detected, and save the corrected image to the specified path.</p>
             </li>
         </ol>
     </section>
     <section id="team">
-        <h2>Made by Bit Bandits</h2>
+        <h2>Made by Bandits</h2>
         <ul>
             <li>Sharveshwaran S S</li>
             <li>Jeyakumar S</li>
             <li>Rohith U</li>
-            <li>Prithviraj M P</li>
+            <li>Prithivraj M P</li>
             <li>Ramalingam M</li>
         </ul>
     </section>
