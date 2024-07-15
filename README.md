@@ -34,7 +34,7 @@ Pixelation degrades image quality, making images less useful for various applica
    python test.py
 - This script will perform the evaluation using a pre-trained classifier.
 - It loads a set of test images (not used during training) from both Original and Pixelated folders.
-- It calculates the accuracy of the pixelation detection model by comparing predicted labels with ground truth labels.]
+- It calculates the accuracy of the pixelation detection model by comparing predicted labels with ground truth labels.
 
 5. Detect Pixelation in an Image:
     ```bash
