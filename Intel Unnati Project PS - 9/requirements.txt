@@ -1,0 +1,15 @@
+tensorflow==2.11.0
+
+opencv-python==4.5.5.64
+
+numpy==1.23.3
+
+joblib==1.2.0
+
+scikit-image==0.18.3
+
+scikit-learn==1.0.2
+
+torch==1.10.1
+
+streamlit==0.85.0
